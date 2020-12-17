@@ -42,18 +42,21 @@ public class Utilisateur extends Personne{
 	}
 	
 	/* create method calculerSalaire */
+	double arg;
 	public double calculerSalaire() {
 		if (this.profil.code.equals("MN")) {
-			return salaire * 1.08;
+			 arg = salaire*0.08;
+			return salaire + arg;
 		} else if (this.profil.code.equals("DG")) {
-			return salaire * 1.15;
+			 arg = salaire * 0.15;
+			return salaire + arg;
 		}
 		return super.calculerSalaire(); 
 	}
 
 	public void afficher() {
 		super.afficher();
-		System.out.println("Le " + this.profil.libelle + " le salaire est: " + this.calculerSalaire());
+		System.out.println("Le " + this.profil.libelle + " le salaire est: " + this.calculerSalaire() + "DH augmentation: " + arg + "DH");
 	}
 	
 	

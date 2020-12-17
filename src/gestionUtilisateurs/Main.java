@@ -21,7 +21,7 @@ public class Main {
 		
 		
 		Utilisateur user1 = new Utilisateur("A123", "hannoune", "othmane", "othmane@gmail.com", "0687878787", 5000.0, "othmanhann", "123", "service1", profils[1]);
-		Utilisateur user2 = new Utilisateur("B456", "tazi", "ghizlan", "ghizlan@gmail.com", "07654545454", 7000.0, "ghizlan", "AZE", "service2", profils[4]);
+		Utilisateur user2 = new Utilisateur("B456", "tazi", "ghizlan", "ghizlan@gmail.com", "07654545454", 5000.0, "ghizlan", "AZE", "service2", profils[4]);
 		Utilisateur user3 = new Utilisateur("C454", "tz", "hicham", "hicham@gmail.com", "0767676767", 3000.0, "hichamZ", "AQSZ", "service3", profils[0]);
 
 		utilisateur.add(user1);
